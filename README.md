@@ -41,4 +41,4 @@ A rendszer egy asztali alkalmazás (PyQt/Tkinter alapú GUI), amely videófolyam
 * **Konfigurációk mentése**: A felhasználó által megadott egyedi zóna- és forgatási beállítások JSON fájlokba mentődnek az adott kameranézethez/videóhoz.
 
 ### C) Adatmentés és Export
-* **Excel logolás**: Az észlelt aktivitási adatok, zónastatisztikák és anomália-események strukturált Excelben is megnyitható CSV fájlokba exportálódnak a későbbi szakmai elemzésekhez.
+* **Excel logolás**: Az észlelt aktivitási adatok, zónastatisztikák és anomália-események Excelben is megnyitható CSV fájlokba exportálódnak a későbbi szakmai elemzésekhez.
