@@ -11,7 +11,7 @@ A rendszer egy asztali alkalmazás (PyQt/Tkinter alapú GUI), amely videófolyam
 * **`detector.py`**: Objektumdetekciós modul az egyedek, etetők és itatók azonosítására a képkockákon.
 * **`tracker.py`**: A detektált egyedek mozgáskövetését (tracking) végző modul.
 * **`anomaly.py`**: A szokatlan viselkedési minták, inaktivitás és anomáliák felismeréséért felelős modul.
-* **`logger.py`**: Az események, aktivitások és mért adatok kiexportálását végzi Excel (`.xlsx`) fájlokba.
+* **`logger.py`**: Az események, aktivitások és mért adatok kiexportálását végzi (`.csv`) fájlokba.
 * **`image_processor.py`**: Képfeldolgozási és transzformációs alapfunkciók (pl. képforgatás, eltolás).
 * **`grid_overlay.py` / `rolling_grid.py`**: Vizualizációs elemek és rácsok megjelenítése.
 * **`requirements.txt`**: A futtatáshoz szükséges függőségek listája.
@@ -41,4 +41,4 @@ A rendszer egy asztali alkalmazás (PyQt/Tkinter alapú GUI), amely videófolyam
 * **Konfigurációk mentése**: A felhasználó által megadott egyedi zóna- és forgatási beállítások JSON fájlokba mentődnek az adott kameranézethez/videóhoz.
 
 ### C) Adatmentés és Export
-* **Excel logolás**: Az észlelt aktivitási adatok, zónastatisztikák és anomália-események strukturált Excel fájlokba exportálódnak a későbbi szakmai elemzésekhez.
+* **Excel logolás**: Az észlelt aktivitási adatok, zónastatisztikák és anomália-események strukturált Excelben is megnyitható CSV fájlokba exportálódnak a későbbi szakmai elemzésekhez.
